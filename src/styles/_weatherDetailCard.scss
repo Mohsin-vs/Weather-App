@@ -1,0 +1,36 @@
+.WeatherDetialCard-body {
+  width: 60%;
+  padding: 30px 50px;
+  margin: 100px auto auto auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    padding: 10px;
+    margin: 30px auto auto auto;
+  }
+  h1 {
+    margin-bottom: 40px;
+  }
+  p {
+    display: flex !important;
+    align-items: center;
+    font-size: 24px;
+    margin: 0px;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.6);
+    span {
+      display: block;
+    }
+  }
+  svg {
+    font-size: 50px;
+    padding-right: 20px;
+  }
+  &--inner-container {
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+      rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    padding: 30px 30px;
+    margin: auto;
+  }
+}

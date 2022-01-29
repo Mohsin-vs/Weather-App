@@ -1,0 +1,27 @@
+.navbar {
+  padding: 0px 40px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 15%,
+    rgba(233, 249, 252, 1) 79%
+  );
+  &--item {
+    &__link {
+      display: inline-block;
+      text-align: center;
+      padding: 14px 16px;
+      border-bottom: 3px solid transparent;
+      font-size: 20px;
+      color: white;
+      font-weight: bold;
+      &:hover {
+        color: #0e1c86;
+        border-bottom: 3px solid #0e1c86;
+      }
+      &:active {
+        color: #0e1c86;
+        border-bottom: 3px solid #0e1c86;
+      }
+    }
+  }
+}
